@@ -20,10 +20,10 @@ This resource this the following resources to work properly:
 
 write this in your server.cfg
 
-`start esx_doorlock ## if you dont have it
-start esx_blowtorch
-start mhacking
-start esx_knatusrobberybank`
+`start esx_doorlock ## if you dont have it`
+`start esx_blowtorch`
+`start mhacking`
+`start esx_knatusrobberybank`
 
 import the sql at your table items at your database (to add the 3 items needed, 2 for fleeca banks)
 
