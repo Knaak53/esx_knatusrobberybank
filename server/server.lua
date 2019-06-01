@@ -94,7 +94,7 @@ AddEventHandler('esx_holdupbank:rob', function(robb)
 					TriggerClientEvent('esx:showNotification', source, _U('alarm_triggered'))
 					TriggerClientEvent('esx:showNotification', source, _U('hold_pos'))
 					TriggerClientEvent('esx_holdupbank:currentlyrobbing', source, robb)
-					TriggerClientEvent('esx_borrmaskin:startblowtorch', source)
+					TriggerClientEvent('esx_blowtorch:startblowtorch', source)
 					Banks[robb].lastrobbed = os.time()
 					robbers[source] = robb
 					local savedSource = source
@@ -262,7 +262,7 @@ end)
 RegisterServerEvent('esx_holdupbank:clearweld')
 AddEventHandler('esx_holdupbank:clearweld', function(x,y,z)
 
-	TriggerClientEvent('esx_borrmaskin:clearweld', -1, x,y,z)
+	TriggerClientEvent('esx_blowtorch:clearweld', -1, x,y,z)
 end)
 
 RegisterServerEvent('esx_holdupbank:opendoor')
@@ -280,7 +280,7 @@ end)
 
 RegisterServerEvent('esx_holdupbank:finishclear')
 AddEventHandler('esx_holdupbank:finishclear', function()
-	TriggerClientEvent('esx_borrmaskin:finishclear', -1)
+	TriggerClientEvent('esx_blowtorch:finishclear', -1)
 end)
 
 RegisterServerEvent('esx_holdupbank:closedoor')

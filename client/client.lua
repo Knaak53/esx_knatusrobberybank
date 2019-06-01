@@ -132,8 +132,9 @@ AddEventHandler('esx_holdupbank:robberycomplete', function(robb)
 	holdingup = false
 	ESX.ShowNotification(_U('robbery_complete') .. Banks[bank].reward)
 	bank = ""
-	TriggerServerEvent('esx_holdupbank:finishclear')
+	TriggerClientEvent('esx_blowtorch:finishclear')
 	TriggerServerEvent('esx_holdupbank:closedoor')
+	TriggerClientEvent('esx_blowtorch:stopblowtorching')
 	secondsRemaining = 0
 	dooropen = false
 	incircle = false
@@ -293,7 +294,7 @@ Citizen.CreateThread(function()
 
 			if IsControlJustReleased(1, 51) then
 				TriggerServerEvent('esx_holdupbank:toofar', bank)
-				TriggerEvent('esx_borrmaskin:stopblowtorching')
+				TriggerEvent('esx_blowtorch:stopblowtorching')
 			end
 
 			if(Vdist(pos.x, pos.y, pos.z, pos2.x, pos2.y, pos2.z) > 7.5)then
@@ -409,7 +410,7 @@ function plantBombAnimation()
 					platingbomb = false
 					ClearPedTasksImmediately(PlayerPedId())
 				end
-				Citizen.wait(0)
+				Citizen.Wait(0)
 			end
 
 	end)
