@@ -10,8 +10,10 @@ This resource need the following resources to work properly:
  - EssentialMode
  - es_extended
  - esx_doorlock
- - esx_blowtorch (A personal modification from esx_borrmaskin)
+ - esx_knatusblowtorch (A personal modification from esx_borrmaskin)
  - mhacking 
+ 
+ esx_knatusblowtorch link https://github.com/Knaak53/esx_knatusblowtorch
  
 ## Lang
  This resource include a lang config to translate it, dont touch the code for that (If find cant translate it, create a issue, pls)
