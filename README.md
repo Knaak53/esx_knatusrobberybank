@@ -3,7 +3,7 @@
 
 This is a complete rework of robbery system to ESX framework at FiveM writed in Lua under GNU V3 license, is important to know you can modify, use and do want you want with this EXCEPT distribute it under a private version, do not matter if you modify it or not, if you do modify it, public it or create a new branch here.
 
-##Dependencies
+## Dependencies
 
 This resource this the following resources to work properly:
 
