@@ -13,7 +13,7 @@ This resource this the following resources to work properly:
  - esx_blowtorch (A personal modification from esx_borrmaskin)
  - mhacking 
  
-###Lang
+##Lang
  This resource include a lang config to translate it, dont touch the code for that (If find cant translate it, create a issue, pls)
  
 ##Installation
