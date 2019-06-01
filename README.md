@@ -20,6 +20,8 @@ This resource need the following resources to work properly:
  
 ## Installation
 
+use git clone or donwload it to your esx folder.
+
 write this in your server.cfg
 
  - start esx_doorlock ## if you dont have it
