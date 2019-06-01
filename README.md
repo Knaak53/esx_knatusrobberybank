@@ -5,7 +5,7 @@ This is a complete rework of robbery system to ESX framework at FiveM writed in 
 
 ## Dependencies
 
-This resource this the following resources to work properly:
+This resource need the following resources to work properly:
 
  - EssentialMode
  - es_extended
