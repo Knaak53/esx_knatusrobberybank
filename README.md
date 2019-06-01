@@ -20,7 +20,7 @@ This resource need the following resources to work properly:
  
 ## Installation
 
-use git clone or donwload it to your esx folder.
+use git clone or download it to your esx folder.
 
 write this in your server.cfg
 
