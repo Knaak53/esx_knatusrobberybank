@@ -85,8 +85,12 @@ function opendoors(success, timeremaining)
 		TriggerEvent('esx_holdupbank:hackcomplete')
 
 	else
+		hackholdingup = false
+		ESX.ShowNotification(_U('hack_failed'))
 		print('Failure')
 		TriggerEvent('mhacking:hide')
+		secondsRemaining = 0
+		incircle = false
 	end
 end
 
