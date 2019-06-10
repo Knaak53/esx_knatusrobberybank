@@ -85,8 +85,12 @@ function opendoors(success, timeremaining)
 		TriggerEvent('esx_holdupbank:hackcomplete')
 
 	else
+		hackholdingup = false
+		ESX.ShowNotification(_U('hack_failed'))
 		print('Failure')
 		TriggerEvent('mhacking:hide')
+		secondsRemaining = 0
+		incircle = false
 	end
 end
 
@@ -132,9 +136,9 @@ AddEventHandler('esx_holdupbank:robberycomplete', function(robb)
 	holdingup = false
 	ESX.ShowNotification(_U('robbery_complete') .. Banks[bank].reward)
 	bank = ""
-	TriggerClientEvent('esx_blowtorch:finishclear')
+	TriggerEvent('esx_blowtorch:finishclear')
 	TriggerServerEvent('esx_holdupbank:closedoor')
-	TriggerClientEvent('esx_blowtorch:stopblowtorching')
+	TriggerEvent('esx_blowtorch:stopblowtorching')
 	secondsRemaining = 0
 	dooropen = false
 	incircle = false

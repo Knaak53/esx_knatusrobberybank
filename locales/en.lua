@@ -21,6 +21,7 @@ Locales['en'] = {
 	['started_to_plantbomb'] = 'You have started planting the pump ',
 	['do_not_move'] = ', Do not move!',
 	['alarm_triggered'] = 'Alarms have jumped',
+	['hack_failed'] = 'Your attempt at hacking the door failed',
 	['hold_pos'] = 'Hold 5 minutes and the money will be yours!',
 	['hold_pos_hack'] = 'Hold while you hack the entrance door and you can access the interior!',
 	['hold_pos_plantbomb'] = 'Hold on while you pump the pump, you re almost inside!',
