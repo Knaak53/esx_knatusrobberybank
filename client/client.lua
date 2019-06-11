@@ -413,6 +413,10 @@ function plantBombAnimation()
 				if secondsRemaining <= 1 then
 					platingbomb = false
 					ClearPedTasksImmediately(PlayerPedId())
+					bombholdingup = false
+					secondsRemaining = 0
+					incircle = false
+					
 				end
 				Citizen.Wait(0)
 			end
