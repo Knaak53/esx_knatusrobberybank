@@ -25,7 +25,7 @@ use git clone or download it to your esx folder.
 write this in your server.cfg
 
  - start esx_doorlock ## if you dont have it
- - start esx_blowtorch
+ - start esx_knatusblowtorch
  - start mhacking ## if you dont have it
  - start esx_knatusrobberybank
 
