@@ -162,8 +162,8 @@ AddEventHandler('esx_holdupbank:hack', function(robb)
 
 			if(cops >= Config.NumberOfCopsRequired)then
 
-				if xPlayer.getInventoryItem('rasperry').count >= 1 then
-					xPlayer.removeInventoryItem('rasperry', 1)
+				if xPlayer.getInventoryItem('raspberry').count >= 1 then
+					xPlayer.removeInventoryItem('raspberry', 1)
 
 					TriggerClientEvent('esx:showNotification', source, _U('started_to_hack') .. bank.nameofbank .. _U('do_not_move'))
 					TriggerClientEvent('esx:showNotification', source, _U('hold_pos_hack'))
@@ -172,7 +172,7 @@ AddEventHandler('esx_holdupbank:hack', function(robb)
 
 
 				else
-					TriggerClientEvent('esx:showNotification', source, _U('rasperry_needed'))
+					TriggerClientEvent('esx:showNotification', source, _U('raspberry_needed'))
 				end
 			else
 				TriggerClientEvent('esx:showNotification', source, _U('min_two_police'))
