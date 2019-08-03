@@ -36,7 +36,7 @@ write this in your server.cfg
 
  - import the sql at your table items at your database (to add the 3 items needed, 2 for fleeca banks)
 
-#Common FAQ
+# Common FAQ
 
 ## The central bank door is opened by default
 
