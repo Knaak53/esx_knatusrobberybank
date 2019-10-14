@@ -5,7 +5,10 @@ Config.NumberOfCopsRequired = 0
 --Updated to choose between cash or black money
 Config.moneyType = 'cash' -- 'cash' or 'black'
 
-Banks = { hack with the minigame to open a door
+Banks = {
+	["fleeca"] = {
+		position = { ['x'] = 148.91908752441, ['y'] = -1050.7448242188, ['z'] = 29.36802482605 }, -- position of robbery, when you have tu use the item "blowtorch"
+		hackposition = { ['x'] = 147.04908752441, ['y'] = -1044.9448242188, ['z'] = 29.36802482605 }, -- position where you have to do hack with the minigame to open a door
 		--hackteleport = { ['x'] = 148.79908752441, ['y'] = -1045.5748242188, ['z'] = 29.36802482605 }, -- ignore this
 		reward = math.random(15000,25000), -- the random range of amount of money you will get for robbery this site
 		nameofbank = "Fleeca Bank", --Visual Name that will be the site

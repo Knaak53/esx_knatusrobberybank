@@ -75,7 +75,7 @@ AddEventHandler('esx_holdupbank:rob', function(robb)
 
 		if rob == false then
 		
-			 if xPlayer.getInventoryItem('blowtorch').count >= 1 then
+			if xPlayer.getInventoryItem('blowtorch').count >= 1 then
 				xPlayer.removeInventoryItem('blowtorch', 1)
 
 				if(cops >= Config.NumberOfCopsRequired)then
@@ -110,7 +110,7 @@ AddEventHandler('esx_holdupbank:rob', function(robb)
 								--Updated to choose between cash or black money
 								if Config.moneyType == 'cash' then
 									xPlayer.addMoney(bank.reward)
-								else if Config.moneyType == 'black' then
+								elseif Config.moneyType == 'black' then
 									xPlayer.addAccountMoney('black_money',bank.reward)
 								end
 
@@ -126,11 +126,11 @@ AddEventHandler('esx_holdupbank:rob', function(robb)
 						end
 					end)
 				else
+					TriggerClientEvent('esx:showNotification', source, _U('min_two_police')..Config.NumberOfCopsRequired)
+				end
+			else
+				TriggerClientEvent('esx:showNotification', source, _U('blowtorch_needed'))
 			end
-				TriggerClientEvent('esx:showNotification', source, _U('min_two_police')..Config.NumberOfCopsRequired)
-			 else
-				 TriggerClientEvent('esx:showNotification', source, _U('blowtorch_needed'))
-			 end
 
 		else
 			TriggerClientEvent('esx:showNotification', source, _U('robbery_already'))
