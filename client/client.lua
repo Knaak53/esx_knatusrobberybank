@@ -170,7 +170,7 @@ end)
 
 RegisterNetEvent('esx_holdupbank:plantedbomb')
 AddEventHandler('esx_holdupbank:plantedbomb', function(x,y,z,doortype)
-	local coords = {x,y,z}
+	local coords = vector3(x,y,z) -- fix for vectors
 	local obs, distance = ESX.Game.GetClosestObject(doortype, coords)
 
     --AddExplosion( bank.bombposition.x,  bank.bombposition.y, bank.bombposition.z , 0, 0.5, 1, 0, 1065353216, 0)
@@ -197,9 +197,11 @@ end)
 RegisterNetEvent('esx_holdupbank:opendoors')
 AddEventHandler('esx_holdupbank:opendoors', function(x,y,z,doortype)
 	dooropen = true;
-
-	local coords = {x,y,z}
-	local obs, distance = ESX.Game.GetClosestObject('hei_v_ilev_bk_gate2_pris', coords)
+	
+	ESX.ShowNotification("X: "..x)
+		
+	local coords = vector3(x,y,z) -- fix for vectors
+	local obs, distance = ESX.Game.GetClosestObject(doortype, coords) -- instant open for people already in site
 
 	local pos = GetEntityCoords(obs);
 

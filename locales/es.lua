@@ -13,7 +13,7 @@ Locales['es'] = {
 	['robbery_cancelled_at'] = '~r~ Atraco cancelado en: ~b~',
 	['robbery_has_cancelled'] = '~r~ El atraco ha sido cancelado: ~b~',
 	['already_robbed'] = 'Este sitio ya ha sido robado. Por favor espera: ',
-	['seconds'] = 'segundos.',
+	['seconds'] = ' segundos.',
 	['rob_in_prog'] = '~r~ Atraco en progreso en: ~b~',
 	['started_to_rob'] = 'Has comenzado un atraco ',
 	['started_to_hack'] = 'Has comenzado a hackear ',
@@ -34,5 +34,5 @@ Locales['es'] = {
 	['rasperry_needed'] = '¡Necesitas una Rasperry para hackear!',
 	['c4_needed'] = '¡Necesitas un C4 para abrir esta puerta!',
 	['blowtorch_needed'] = '¡Necesitas un soplete para robar los cajones del banco!',
-
+	['bomb_of'] = 'Plantarás la bomba en ',
 }
