@@ -33,7 +33,7 @@ Locales['fr'] = {
 	['robbery_already'] = '~r~ There is already a robbery in progress.',
 	['bombplanted_run'] = 'Vous avez planter la bombe, courrez et planquez vous! Elle explosera dans 20 secondes',
 	['bombplanted_at'] = 'Une bombe a été plantée à: ~b~ !',
-	['rasperry_needed'] = 'Vous avez besoin d\'un rasperry pour pirater!',
+	['raspberry_needed'] = 'Vous avez besoin d\'un rasperry pour pirater!',
 	['c4_needed'] = 'Vous avez besoin de pains de C4 pour exploser la porte!',
 	['blowtorch_needed'] = 'Vous avez besoin d\'un chalumeau pour ouvrir les casiers!',
 

@@ -33,7 +33,7 @@ Locales['en'] = {
 	['robbery_already'] = '~r~ There is already a robbery in progress.',
 	['bombplanted_run'] = 'You have planted the bomb, run and cover! It will explode in 20 seconds',
 	['bombplanted_at'] = 'A bomb has been planted in: ~b~ !',
-	['rasperry_needed'] = 'You need a Raspberry to hack!',
+	['raspberry_needed'] = 'You need a Raspberry to hack!',
 	['c4_needed'] = 'You need a C4 to open this door!',
 	['blowtorch_needed'] = 'You need a blowtorch to steal the bank drawers!',
 

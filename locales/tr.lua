@@ -33,7 +33,7 @@ Locales['tr'] = {
 	['robbery_already'] = '~r~ Soygun zaten devam ediyor.',
 	['bombplanted_run'] = 'Bombayı yerleştirdin, koş ve siper al! Bomba 20 saniye içinde patlayacak',
 	['bombplanted_at'] = 'Bomba yerleştirildi: ~b~ !',
-	['rasperry_needed'] = 'Sisteme sızmak için Raspberry gerekli.',
+	['raspberry_needed'] = 'Sisteme sızmak için Raspberry gerekli.',
 	['c4_needed'] = 'Kapıyı patlatmak için C4 e ihtiyacın var.',
 	['blowtorch_needed'] = 'Kasaya erişmek için kaynak makinesine ihtiyacın var',
 
