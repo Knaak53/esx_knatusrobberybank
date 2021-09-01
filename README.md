@@ -1,7 +1,8 @@
 # esx_knatusrobberybank
 
-
-- Please, consider to support me if you like [my work here](https://paypal.me/knatus)
+- Join my discord! get all my releases , information and much more! https://discord.gg/6rMhMHC
+- 
+- Check my latest release on forums https://forum.cfx.re/t/esx-paid-knatus-art-of-guitar/4719827
 
 
 ### Description
